@@ -1,0 +1,170 @@
+body 
+{
+    margin: 0;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: black;
+    background-color: var(--fondo);  
+}
+
+:root
+{
+    --principal: #40407a;
+    --fondo: #ececec;
+    --secundario: #474787;
+    --rojo: #ff5252;
+    --verde: #33d9b2;
+    --text: #84817a;
+}
+
+.nav-titulo
+{
+    color: white;
+    font-size: 30px;
+}
+
+nav
+{
+    background-color: var(--principal);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-bottom: 100px;
+}
+
+.btn-contador
+{
+    background-color: var(--principal);
+    width: 150px;
+    border-radius: 20px;
+    font-size: 30px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-contador:active
+{
+    transition: .3s ease;
+    transform: scale(1.05);
+}
+
+.contador
+{
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.container-tabla
+{
+    margin-right: 40px;
+}
+
+main
+{
+    margin: 0 10%;
+    display: flex;
+}
+
+.text-contador
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--text);
+}
+
+.table-dias
+{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.tbl-header
+{
+    background-color: var(--subfondo);
+}
+
+.tbl-content
+{
+    height: 550px;
+    overflow-x:auto;
+    margin-top: 0px;
+    border-bottom: solid 1px rgba(201 223 241);
+}
+
+thead tr
+{
+    padding: 20px 15px;
+    text-align: left;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: var(--secundario);
+    color: white;
+    font-weight: bold;
+}
+
+td
+{
+    padding: 15px 0;
+    max-width: 70px;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 14px;
+} 
+
+.td-primer-fila
+{
+    padding: 15px;
+}
+
+tr
+{
+    border-bottom: solid 1px var(--fondo-gris);
+}
+
+.textbox-fecha
+{
+    margin-bottom: 5px;
+    height:20px;
+    width: 200px;
+    background-color: var(--principal);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    height: 30px;
+    padding: 0 10px;
+    outline: none;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.btn-form
+{
+    margin-top: 20px;
+    background-color: var(--principal);
+    width: 200px;
+    border-radius: 20px;
+    font-size: 30px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-form:active
+{
+    transition: .3s ease;
+    transform: scale(1.05);
+}
+
+.container-form
+{
+    text-align: center;
+}
